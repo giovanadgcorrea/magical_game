@@ -1,0 +1,74 @@
+@font-face {
+    font-family: harrypotter;
+    src: url(../fonte/HARRYP__.TTF);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/back3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    background-color: #0B0B0B;
+    opacity: 0.9;
+    color: #FFD700;
+    font-family: harrypotter;
+    font-size: 70px;
+    text-align: center;
+    margin: 90px auto 100px;
+    width: 40%;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.intro {
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 30px;
+    color: #FFD700;
+    width: 80%;
+    padding: 20px;
+    border-style: solid;
+    border-color: transparent;
+    box-sizing: border-box;
+    background-color: #0B0B0B;
+    opacity: 0.9;
+    border-radius: 15px;
+}
+
+.jogar {
+    margin: 90px auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-width: 1px;
+    border-radius: 15px;
+    background-color: #0B0B0B;
+    opacity: 0.9;
+    color: #FFD700;
+    font-size: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    width: 400px;
+}
+
+.jogar:hover  {
+    cursor: pointer;
+    background-color: #0B0B0B;
+    border-color: #FFD700;
+    border-width: 2px;
+    color: #FFD700;
+}
