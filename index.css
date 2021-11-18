@@ -57,6 +57,7 @@ body {
     border-width: 1px;
     border-radius: 15px;
     background-color: #0B0B0B;
+    opacity: 0.9;
     color: #FFD700;
     font-size: 40px;
     font-family: 'Cormorant Garamond', serif;
@@ -115,3 +116,82 @@ footer {
     background-color: #0B0B0B;
     opacity: 0.9;
 } 
+
+
+@media (max-width: 700px) { 
+ 
+    
+    .titulo{
+        background-color: #0B0B0B;
+        opacity: 0.9;
+        color: #FFD700;
+        font-family: harrypotter;
+        font-size: 70px;
+        text-align: center;
+        margin: 90px auto;
+        width: 90%;
+        border-radius: 15px;
+        padding: 20px;
+    }
+    
+    .intro {
+        font-family: 'Cormorant Garamond', serif;
+        line-height: 1.5;
+        text-align: center;
+        font-size: 25px;
+        color: #FFD700;
+        width: 80%;
+        padding: 20px;
+        border-style: solid;
+        border-color: transparent;
+        box-sizing: border-box;
+        background-color: #0B0B0B;
+        opacity: 0.9;
+        border-radius: 15px;
+    }
+    
+    .jogar {
+        margin: 35px auto;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        border-width: 1px;
+        border-radius: 15px;
+        background-color: #0B0B0B;
+        opacity: 0.9;
+        color: #FFD700;
+        font-size: 40px;
+        font-family: 'Cormorant Garamond', serif;
+        text-align: center;
+        width: 400px;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 1px;
+        align-items: center;
+        width: 100%;
+        height: 1800px;
+        margin-bottom: 150px;
+    }
+    
+    .box-personagem {
+        background-color: #0B0B0B;
+        height: 400px;
+        opacity: 0.9;
+        border-radius: 15px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 25px;
+    }
+    
+    .foto-personagem {
+        height: 400px;
+        object-fit: cover;
+        margin: auto;
+    }
+    
+}
